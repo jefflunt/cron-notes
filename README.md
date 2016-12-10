@@ -5,7 +5,7 @@
   - `* * * * * whoami > /tmp/whoami`
 - The environment variables (including `PATH)` probably aren't what you think
   they are
-- The shell probably isn't what you think it is (so don't assume that everything
+- The shell probably isn't what you think it is, so don't assume that everything
 	that works in `bash` will work in your script
 - Variable assignments in the `crontab` probably don't work the way you think,
   so don't rely on variables defined in the `crontab` to actually work
